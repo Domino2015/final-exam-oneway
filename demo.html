@@ -8,9 +8,12 @@
 	<meta name="description" content="redrockredrockredrock">
 	<meta name="redrock" content="redrock">
 	<meta name="oneway" content="name, email@gmail.com">
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet"
+		  type="text/css"/>
 	<script type="text/javascript" src="js/j.minisite.weather.js" charset="gbk"></script>
 	<script src="js/demo.js"></script>
+
+	<link href="css/focus.css" rel="stylesheet" media="screen">
 	<!-- 使用跨平台的样式重置库 -->
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/demo.css"/>
@@ -31,7 +34,7 @@
 			<li><a href="#">软件中心</a></li>
 			<li><a href="#">BTdown铺</a></li>
 			<li><a href="#">红岩微博</a></li>
-			<li ><a href="#">...</a></li>
+			<li><a href="#">...</a></li>
 		</ul>
 	</div>
 	<div id="logbar" onload="menuFix()">
@@ -50,7 +53,7 @@
 					<li><a href="##">查空教室</a></li>
 				</ul>
 			</li>
-			<li ><a href="##">论坛</a>
+			<li><a href="##">论坛</a>
 				<ul>
 					<li><a href="##">评论</a></li>
 					<li><a href="##">@我</a></li>
@@ -62,71 +65,293 @@
 	<div class="wrapper">
 		<div class="slice"></div>
 		<div class="header">
-		<div class="header-logo">
-			<img src="img/logo.png" alt="红岩网校logo">
-			<div id="header-logo-weather">
-				<p id="showtime">&nbsp;</p>
-				<p id="wealth">&nbsp;</p>
-				<p id="wealth1">&nbsp;</p>
-			</div>
-			<div class="weather">
-				<img src="img/weather.png" alt="天气图标">
-			</div>
-		</div>
-			<hr/>
-		<div class="header-nav">
-			<div class="header-nav-slice1">
-				<img src="img/slice.png" alt="slice">
+			<div class="header-logo">
+				<img src="img/logo.png" alt="红岩网校logo">
+				<div id="header-logo-weather">
+					<p id="showtime">&nbsp;</p>
+					<p id="wealth">&nbsp;</p>
+					<p id="wealth1">&nbsp;</p>
 				</div>
-			<div class="header-nav-slice2">
-				<img src="img/slice.png" alt="slice">
+				<div class="weather">
+					<img src="img/weather.png" alt="天气图标">
+				</div>
 			</div>
-			<div class="header-nav-list">
-				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-			</div>
-			<div class="header-nav-list">
-				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-			</div>
-			<div class="header-nav-list header-nav-list3">
-				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
-				<a href="##">心理互助</a><a href="##">心理互助</a>
+			<hr/>
+			<div class="header-nav">
+				<div class="header-nav-slice1">
+					<img src="img/slice.png" alt="slice">
+				</div>
+				<div class="header-nav-slice2">
+					<img src="img/slice.png" alt="slice">
+				</div>
+				<div class="header-nav-list">
+					<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+				</div>
+				<div class="header-nav-list">
+					<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+				</div>
+				<div class="header-nav-list header-nav-list3">
+					<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+					<a href="##">心理互助</a><a href="##">心理互助</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="content">
-		<div class="container">
-			<div class="col-left">
-				<h4>今日热点</h4>
-				<hr/>
+		<div id="content">
+			<div class="container container1">
+				<div class="col-left">
+					<a href="##"><h2>今日热点</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<!-- 233333333333333333-->
+
+					<div class="col-left-content">
+						<div class="focus_frame">
+							<div class="focus_photo_box">
+								<div id="focus_photo_area">
+									<div class="focus_photo_frame">
+										<div class="photo_one">
+											<img src="img/news1.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/new2.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/news3.png">
+										</div>
+									</div>
+									<div class="focus_photo_frame">
+										<div class="photo_one">
+											<img src="img/new2.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/news1.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/news3.png">
+										</div>
+									</div>
+									<div class="focus_photo_frame">
+										<div class="photo_one">
+											<img src="img/news1.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/new2.png">
+										</div>
+										<div class="photo_two">
+											<img src="img/new2.png">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="focus_button_box">
+								<div class="focus_button button_first orange"><img src=""> 热点聚焦</div>
+								<div class="focus_button red">重邮动态</div>
+								<div class="focus_button red">教务信息</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-right">
+					<a href="##"><h2>今日热点</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar1.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar2.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar3.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="col-right">
-				<h4>热门活动</h4>
+
+			<div class="container container2">
+				<div class="col-left2">
+					<a href="##"><h2>校园论坛</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content2">
+						<h4>热门帖子</h4>
+						<ul>
+							<li><a href="##">我是一个兄啊下是现代化建设建设的设哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下想吃撒巴萨设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下大飒飒设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下时代擦市场设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊城市撒下设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊撒些撒些下设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下设是撒啊撒计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下圣诞打折设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊下设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个兄啊撒彩信相册撒下设计狮啊哈哈啊</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-right2">
+					<a href="##"><h2>今日热点</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right2-content">
+						<h4>热门帖子</h4>
+						<ul>
+							<li><a href="##">我是一个下建设的设哈哈啊</a></li>
+							<li><a href="##">我是一吃撒计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一大飒设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个代场设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个城设计狮啊哈哈啊</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
+
+			<div class="container container3">
+				<div class="col-left">
+					<a href="##"><h2>今日热点</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+				</div>
+				<div class="col-right">
+					<a href="##"><h1>今日热点</h1></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar1.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar2.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content">
+						<img src="img/sidebar3.png" alt="新手笑脸">
+						<div class="col-right-content-word">
+							<p>新手笑脸</p>
+							<span>快来留下你的一张笑脸吧把...</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container container4">
+				<div class="col-left4">
+					<a href="##"><h2>校园论坛</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right-content2">
+						<div class="col-right-content4">
+							<img src="img/sidebar3.png" alt="新手笑脸">
+							<div class="col-right-content-word4">
+								<p>里约大冒险</p>
+								<span>...</span>
+							</div>
+						</div>
+						<div class="col-right-content4">
+							<img src="img/sidebar3.png" alt="新手笑脸">
+							<div class="col-right-content-word4">
+								<p>里约大冒险</p>
+								<span>...</span>
+							</div>
+						</div>
+						<div class="col-right-content4">
+							<img src="img/sidebar3.png" alt="新手笑脸">
+							<div class="col-right-content-word4">
+								<p>里约大冒险</p>
+								<span>...</span>
+							</div>
+						</div>
+					</div>
+					<ul id="container4-ul">
+						<li><a href="##">我是一建设的设哈哈啊</a></li>
+						<li><a href="##">我是吃撒巴萨设计狮啊哈哈啊</a></li>
+						<li><a href="##">我是一飒飒设计狮啊哈哈啊</a></li>
+						<li><a href="##">我是一个兄场设计狮啊哈哈啊</a></li>
+						<li><a href="##">我是一个下设计狮啊哈哈啊</a></li>
+					</ul>
+				</div>
+				<div class="col-right4">
+					<a href="##"><h2>今日热点</h2></a>
+					<div class="col-right-slice"></div>
+					<div class="col-right-slice1"></div>
+					<div class="col-right2-content">
+						<h4>热门帖子</h4>
+						<ul>
+							<li><a href="##">我是一个下建设的设哈哈啊</a></li>
+							<li><a href="##">我是一吃撒计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一大飒设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个代场设计狮啊哈哈啊</a></li>
+							<li><a href="##">我是一个城设计狮啊哈哈啊</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
-		<div class="container">
-			<div class="col-left"></div>
-			<div class="col-right"></div>
-		</div>
-	</div>
 
 
 	</div>
-	<div id="footer"></div>
+
+
+	<div class="footer">
+		<div class="navbar1">
+			<ul>
+				<li><a href="##">关于我们</a></li>
+				<li><a href="##">网站地图</a></li>
+				<li><a href="##">指出错误</a></li>
+				<li><a href="##">管理入口</a></li>
+			</ul>
+		</div>
+		<p>地址：重庆市南岸区崇文路2号（重庆邮电大学内）</p>
+		<p>E-mail：redrock@cqupt.edu.cn(023-62461084)</p>
+		<p>
+			<i class="iconfont">&#xe61e;</i>
+			<i class="iconfont">&#xe605;</i>
+			<i class="iconfont">&#xe636;</i>
+		</p>
+	</div>
+
 </div>
 
 <script type="text/javascript">
 	// 如果是直辖市
-	MiniSite.Weather.print(function(data) {
-		document.getElementById('wealth').innerHTML = data.city + "  " + data.wealth+"  "+data.range;
-	},"重庆市","重庆市");
+	MiniSite.Weather.print(function (data) {
+		document.getElementById('wealth').innerHTML = data.city + "  " + data.wealth + "  " + data.range;
+	}, "重庆市", "重庆市");
 </script>
+<script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="js/focus.js"></script>
 </body>
 </html>
