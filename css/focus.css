@@ -1,0 +1,93 @@
+ul {
+    list-style: none;
+}
+
+.focus_frame {
+    float: left;
+    width: 847px;
+    height: 356px;
+    border: 1px solid #000;
+}
+
+.focus_photo_box {
+    /*position: relative;*/
+    float: left;
+    width: 698px;
+    height: 356px;
+    overflow: hidden;
+}
+
+.focus_photo_frame {
+    float: left;
+    width: 750px;
+    height: 356px;
+}
+
+#focus_photo_area {
+    /*position: absolute;*/
+    float: left;
+    width: 750px;
+    height: 1068px;
+}
+
+.photo_one {
+    float: left;
+    width: 290px;
+    height: 356px;
+    margin-right: 1px;
+    overflow: hidden;
+}
+
+.photo_two {
+    float: left;
+    width: 290px;
+    height: 177.5px;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+
+.photo_one img {
+    width: 100%;
+    height: 100%;
+}
+
+.photo_two img {
+    width: 100%;
+    height: 100%;
+    /*margin-bottom: 1px;*/
+}
+
+#focus_button_box {
+    float: left;
+    width: 149px;
+    height: 355px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.red {
+    background: #f36a51;
+}
+
+.red:hover {
+    background: #ffa459;
+}
+
+.orange {
+    background: #ffa459;
+}
+
+#focus_button_box div {
+    float: left;
+    width: 149px;
+    height: 118.5px;
+    font-size: 20px;
+    font-family: Microsoft Yahei;
+    color: #fff;
+    text-align: center;
+    line-height: 118px;
+    cursor: pointer;
+}
