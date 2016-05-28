@@ -32,7 +32,7 @@ h5, h6 { font-size: 1.2em; }
 .wrapper
 {
     width: 80%;
-    height: 840px;
+    height: 1500px;
     margin: 0 auto;
     border-radius: 3px;
     background-color: #ffffff;
@@ -239,8 +239,48 @@ h5, h6 { font-size: 1.2em; }
     height: 47px;
 }
 .content{
-
 }
+.container{
+    height: 440px;
+    background-color: yellow;
+}
+.col-left{
+    width: 840px;
+    height: 440px;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 20px;
+}
+.col-right{
+    width: 264px;
+    height: 440px;
+    background-color: green;
+    float: right;
+    margin-top: 20px;
+}
+.col-left h4:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
