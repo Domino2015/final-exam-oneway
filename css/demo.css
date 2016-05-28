@@ -1,0 +1,264 @@
+* {
+    font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: pink;
+}
+a{
+    text-decoration: none
+}
+p {
+    font-family: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif;
+    text-align: justify;
+    text-justify: inter-ideographic;
+    word-break: break-all;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;
+    line-height: 1.5em;
+    margin-top: .7em;
+    margin-bottom: .2em;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5, h6 { font-size: 1.2em; }
+
+.wrapper
+{
+    width: 80%;
+    height: 840px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding-left:14px ;
+    padding-right: 14px;
+}
+
+<!-- header-navbal -->
+.navbar{
+    height: 40px;
+}
+.navbar ul
+{
+    float: left;
+    margin-left: 10%;
+    list-style-type: none;
+    padding-left: 24px;
+}
+.navbar ul li
+{
+    font-size: 13px;
+    display: inline;
+    float: left;
+    padding-left: 10px;
+    line-height: 40px;
+    height: 40px;
+}
+.navbar ul li a:link, a:visited
+{
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+    color: dimgray;
+}
+.navbar ul li a:hover, a:active
+{
+    color: snow;
+    font-size: 14px;
+}
+<!-- header-logber -->
+#container{
+    width: 1414px;
+    height: auto;
+}
+#logbar{
+    height: 40px;
+    background-color: #363636;
+}
+
+#logbar ul
+{
+    float: right;
+    width: 324px;
+    padding: 0;
+    list-style: none;
+}
+#logbar ul li
+{
+    font-weight: bold;
+    line-height: 40px;
+    float: left;
+    width: 94px;
+    height: 40px;
+    margin-right: 13px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #111;
+}
+#logbar ul li a
+{
+    display: block;
+    width: 94px;
+    height: 40px;
+    color: #d3d3d3;
+    border-radius: 3px;
+
+}
+#logbar ul li a:hover
+{
+    border-radius: 3px;
+    background-color: #fff;
+}
+#logbar ul li ul li
+{
+    float: none;
+    width: 94px;
+    margin: 0;
+    border-radius: 3px;
+}
+#logbar ul li ul
+{
+    display: none;
+    width: 94px;
+    margin-top: 0;
+}
+#logbar ul li.listshow ul
+{
+    display: block;
+}
+#logbar ul li ul li a {
+    width: 94px;
+    border-radius: 3px;
+    background: none;  /*现在把下拉列表的背景图片去掉*/
+}
+#logbar ul li ul li a:hover {
+    color: #000;
+    background: #eee;
+}
+#logout1,#logout2{
+    float: right;
+    font-size: 13px;
+    line-height: 40px;
+    height: 40px;
+}
+#logout1{
+    margin-right: 164px;
+    margin-left: 14px;
+}
+
+#logout2{
+    float: right;
+    margin-right: 28px;
+    color: white;
+}
+#logout1:link, #logout1:visited
+{
+    font-weight: bold;
+    text-align: center;
+    color: dimgray;
+}
+#logout1:hover, #logout1:active
+{
+    color: snow;
+    font-size: 14px;
+}
+<!-- header -->
+.slice{
+    width: 80%;
+    height: 40px;
+}
+.header-logo{
+    height: 90px;
+}
+.header-logo img{
+    width: 131px;
+    display: block;
+    float: left;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+#header-logo-weather{
+    width: 131px;
+    height: 30px;
+    float: left;
+    margin-left: 16px;
+    margin-top: 30px;
+}
+#header-logo-weather p{
+     margin-bottom: .7em;
+ }
+.weather img{
+    width: 49px;
+    height: 32px;
+}
+<!-- header-nav -->
+.header-nav{
+    height: auto;
+    width: auto;
+}
+.header-nav-list{
+    width: 366px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+.header-nav-list a{
+    display: block;
+    float: left;
+    width: 69px;
+    height: 16px;
+    margin: 8px 11px;
+    color: black;
+}
+.header-nav-list a:hover{
+    color: red;
+    font-weight: bold;
+}
+.header-nav-list3{
+    margin-right: 0;
+}
+.header-nav-slice1{
+    position: absolute;
+    top:140px;
+    left: 508px;
+ }
+.header-nav-slice2{
+    position: absolute;
+    top:140px;
+    left:894px;
+}
+.header-nav-slice1 img,.header-nav-slice2 img{
+    width: 2px;
+    height: 47px;
+}
+.content{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

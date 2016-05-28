@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>红岩网校</title>
+	<!-- SEO -->
+	<meta name="description" content="redrockredrockredrock">
+	<meta name="redrock" content="redrock">
+	<meta name="oneway" content="name, email@gmail.com">
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/j.minisite.weather.js" charset="gbk"></script>
+	<script src="js/demo.js"></script>
+	<!-- 使用跨平台的样式重置库 -->
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/demo.css"/>
+	<link rel="stylesheet" href="css/iconfont.css"/>
+	<!-- 为移动设备添加 viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<!--
+<div id="wealth">&nbsp;</div>
+<i class="iconfont">&#xe605;</i>-->
+<div id="container">
+	<div class="navbar">
+		<ul>
+			<li><a href="#">设为首页</a></li>
+			<li><a href="#">二手市场</a></li>
+			<li><a href="#">软件中心</a></li>
+			<li><a href="#">BTdown铺</a></li>
+			<li><a href="#">红岩微博</a></li>
+			<li ><a href="#">...</a></li>
+		</ul>
+	</div>
+	<div id="logbar" onload="menuFix()">
+		<a href="##" id="logout1">登出</a>
+		<ul>
+			<li><a href="##">王威</a>
+				<ul>
+					<li><a href="##">个人资料</a></li>
+					<li><a href="##">退出登录</a></li>
+				</ul>
+			</li>
+			<li><a href="##">信息查询</a>
+				<ul>
+					<li><a href="##">查成绩</a></li>
+					<li><a href="##">查课表</a></li>
+					<li><a href="##">查空教室</a></li>
+				</ul>
+			</li>
+			<li ><a href="##">论坛</a>
+				<ul>
+					<li><a href="##">评论</a></li>
+					<li><a href="##">@我</a></li>
+				</ul>
+			</li>
+		</ul>
+		<span id="logout2">您好</span>
+	</div>
+	<div class="wrapper">
+		<div class="slice"></div>
+		<div class="header">
+		<div class="header-logo">
+			<img src="img/logo.png" alt="红岩网校logo">
+			<div id="header-logo-weather">
+				<p id="showtime">&nbsp;</p>
+				<p id="wealth">&nbsp;</p>
+				<p id="wealth1">&nbsp;</p>
+			</div>
+			<div class="weather">
+				<img src="img/weather.png" alt="天气图标">
+			</div>
+		</div>
+			<hr/>
+		<div class="header-nav">
+			<div class="header-nav-slice1">
+				<img src="img/slice.png" alt="slice">
+				</div>
+			<div class="header-nav-slice2">
+				<img src="img/slice.png" alt="slice">
+			</div>
+			<div class="header-nav-list">
+				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+			</div>
+			<div class="header-nav-list">
+				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+			</div>
+			<div class="header-nav-list header-nav-list3">
+				<a href="##">图书馆</a><a href="##">蓝鸽听力</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+				<a href="##">心理互助</a><a href="##">心理互助</a>
+			</div>
+		</div>
+	</div>
+	<div id="content"></div>
+	<div id="col-left"></div>
+	<div id="col-right"></div>
+	</div>
+	<div id="footer"></div>
+</div>
+
+<script type="text/javascript">
+	// 如果是直辖市
+	MiniSite.Weather.print(function(data) {
+		document.getElementById('wealth').innerHTML = data.city + "  " + data.wealth+"  "+data.range;
+	},"重庆市","重庆市");
+</script>
+</body>
+</html>
